@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Email signatures for businesses | automated signatures in Microsoft 365</title>
-<meta name="description" content="Automated email signatures for businesses in Microsoft 365. Consistent signatures, Entra ID data, central management – cheaper than CodeTwo."/>
+<meta name="description" content="Automated email signatures for businesses in Microsoft 365. Subscription packages, central management, Entra ID data and a separately priced implementation."/>
 <link rel="icon" href="fav.ico" type="image/x-icon">
 
 <style>
@@ -214,6 +214,14 @@ ul,ol{list-style:none}
   background:#ecfdf3;border:1px solid #cdeed8;color:#15803d;font-size:.78rem;font-weight:900;flex:0 0 auto;margin-top:1px}
 .price-cta{margin-top:auto}
 
+
+/* ===== IMPLEMENTATION AND PRICING ===== */
+.setup-note{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:flex-start;margin:0 0 20px;padding:20px;background:linear-gradient(135deg,#eff6ff,#f8fbff);border:1px solid #cfe1fb;border-radius:var(--r-sm)}
+.setup-note-ic{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:#fff;border:1px solid #d8e6f8;color:var(--brand);font-weight:900;font-size:1.15rem}
+.setup-note h3{margin:0 0 4px;font-size:1.08rem}
+.setup-note p{margin:0;color:var(--muted)}
+.price-note{padding:16px;border-radius:14px;background:#f8fbff;border:1px solid #dce7f5;color:#526176;font-size:.9rem}
+@media(max-width:640px){.setup-note{grid-template-columns:1fr;padding:16px}.setup-note-ic{width:36px;height:36px;font-size:.9rem}.price.best{transform:none}}
 /* ===== FAQ ===== */
 .faq-g{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 .faq-i{padding:22px;cursor:pointer}
@@ -413,13 +421,6 @@ ul,ol{list-style:none}
   background:#ef4444;
   box-shadow:0 0 0 4px rgba(239,68,68,.16);
 }
-  
-
-@media (max-width: 768px) {
-  .brand span {
-    display: none;
-  }
-}
 
 </style>
 </head>
@@ -428,7 +429,7 @@ ul,ol{list-style:none}
 <!-- ===== HEADER ===== -->
 <header class="hdr">
 <div class="wrap nav">
-  <a href="#top" class="brand"><img src="logo-32.png" alt="stopkamailowa.com"><!-- <i>S</i> --> <span><b>stopka</b>mailowa</span></a>
+  <a href="#top" class="brand"><img src="logo-32.png" alt="stopkamailowa.com"><!-- <i>S</i> --> <span><b>stopka</b>mailowa.com</span></a>
   <nav class="nl">
     <a href="#problem">Problem</a>
     <a href="#jak-to-dziala">How it works</a>
@@ -439,7 +440,7 @@ ul,ol{list-style:none}
   </nav>
   <div class="na">
     <a class="btn btn-s" href="mailto:msp@valcreon.com?subject=Email%20signature%20%E2%80%93%20inquiry&amp;body=Hello%2C%0A%0AWe%20would%20like%20to%20inquire%20about%20automated%20email%20signatures%20in%20Microsoft%20365.%0A%0ACompany%3A%0ANumber%20of%20users%3A%0ADomain%3A%0A%0ABest%20regards">Send e&#8209;mail</a>
-    <a class="btn btn-p" href="https://bookings.cloud.microsoft/book/ValcreonSessions@valcreon.com" target="_blank" rel="noopener noreferrer">Book 15&nbsp;min</a>
+    <a class="btn btn-p" href="https://bookings.cloud.microsoft/book/RedFlag1@redflag.com.pl" target="_blank" rel="noopener noreferrer">Book 15&nbsp;min</a>
     <button class="mbtn" id="menuBtn" aria-label="Menu" aria-expanded="false"><span></span></button>
   </div>
 </div>
@@ -456,7 +457,7 @@ ul,ol{list-style:none}
     <a href="#kontakt">Contact</a>
   </nav>
   <div class="mob-cta">
-    <a class="btn btn-p" href="https://bookings.cloud.microsoft/book/ValcreonSessions@valcreon.com" target="_blank" rel="noopener noreferrer">Book 15&nbsp;min</a>
+    <a class="btn btn-p" href="https://bookings.cloud.microsoft/book/RedFlag1@redflag.com.pl" target="_blank" rel="noopener noreferrer">Book 15&nbsp;min</a>
     <a class="btn btn-s" href="mailto:msp@valcreon.com?subject=Email%20signature%20%E2%80%93%20inquiry">Send e&#8209;mail</a>
   </div>
 </div>
@@ -469,15 +470,15 @@ ul,ol{list-style:none}
   <div class="reveal visible">
     <span class="eyebrow">Automated email signatures</span>
     <h1>Professional <span class="accent">email signatures</span> in Microsoft&nbsp;365</h1>
-    <p class="hero-lead">Consistent email signatures, employee data from&nbsp;Microsoft&nbsp;365, central management and&nbsp;a simple subscription&nbsp;– always cheaper than complex platforms. We do not redirect mail through external servers, we do not process message content and we have no access to your emails.</p>
+    <p class="hero-lead">Consistent email signatures, employee data from&nbsp;Microsoft&nbsp;365, central management and&nbsp;a subscription package suited to your company size. We do not redirect mail through external servers, we do not process message content and we have no access to your emails.</p>
     <div class="hero-btns">
-      <a class="btn btn-p" href="https://bookings.cloud.microsoft/book/ValcreonSessions@valcreon.com" target="_blank" rel="noopener noreferrer">Book 15&nbsp;min</a>
+      <a class="btn btn-p" href="https://bookings.cloud.microsoft/book/RedFlag1@redflag.com.pl" target="_blank" rel="noopener noreferrer">Book 15&nbsp;min</a>
       <a class="btn btn-s" href="#cennik">See packages</a>
     </div>
     <div class="hero-checks">
-      <span>From 149 PLN</span>
+      <span>Subscription from PLN 99 net</span>
       <span>Order for years</span>
-      <span>Quick deployment</span>
+      <span>Implementation priced separately</span>
     </div>
   </div>
 
@@ -516,7 +517,7 @@ ul,ol{list-style:none}
     <div class="stats">
       <div class="stat"><strong>100%</strong><span>consistency</span></div>
       <div class="stat"><strong>1 min</strong><span>employee effort</span></div>
-      <div class="stat"><strong>23+</strong><span>M365 attributes</span></div>
+      <div class="stat"><strong>M365</strong><span>Entra ID data</span></div>
     </div>
   </div>
 </div>
@@ -529,7 +530,7 @@ ul,ol{list-style:none}
     <div class="ti"><div class="ti-ic">☁️</div><div><strong>Microsoft 365</strong><span>Native integration</span></div></div>
     <div class="ti"><div class="ti-ic">🔑</div><div><strong>Entra ID / Azure AD</strong><span>Employee data from directory</span></div></div>
     <div class="ti"><div class="ti-ic">📧</div><div><strong>Security</strong><span>Nothing leaves your M365</span></div></div>
-    <div class="ti"><div class="ti-ic">💳</div><div><strong>Simple subscription</strong><span>No hidden costs</span></div></div>
+    <div class="ti"><div class="ti-ic">💳</div><div><strong>Clear pricing model</strong><span>Implementation + monthly package</span></div></div>
   </div>
 </div>
 </section>
@@ -568,7 +569,7 @@ ul,ol{list-style:none}
   <div class="sh reveal">
     <span class="eyebrow">How it works</span>
     <h2>3&nbsp;steps to professional email signatures</h2>
-    <p>Deployment takes 1–2&nbsp;business days. Template individually customized for your company.</p>
+    <p>The implementation scope and fee are agreed individually. It includes HTML design, Microsoft 365 configuration, data mapping, testing and production launch.</p>
   </div>
   <div class="steps">
     <div class="step card reveal">
@@ -612,7 +613,7 @@ ul,ol{list-style:none}
     <div class="fc card reveal">
       <div class="fc-ic">🖼️</div>
       <h3>Campaign banners</h3>
-      <p>Centrally managed advertising banner lub informacyjny pod stopką. Zmiana jednego pliku&nbsp;– nowy baner u&nbsp;wszystkich.</p>
+      <p>A centrally managed promotional or informational banner below the signature. Updating one file changes the banner for everyone.</p>
     </div>
     <div class="fc card reveal">
       <div class="fc-ic">📮</div>
@@ -626,8 +627,8 @@ ul,ol{list-style:none}
     </div>
     <div class="fc card reveal">
       <div class="fc-ic">💰</div>
-      <h3>Simple, low cost</h3>
-      <p>Monthly subscription with no hidden fees. Cheaper and simpler than large signature management platforms.</p>
+      <h3>Predictable cost</h3>
+      <p>A one-time implementation fee and a fixed monthly subscription. Banner rotations and template changes are included according to the selected package.</p>
     </div>
   </div>
 </div>
@@ -648,13 +649,13 @@ ul,ol{list-style:none}
       <div class="vs-head">
         <span class="vs-badge-win">Recommended</span>
         <strong class="vs-name" style="color:var(--brand)">stopkamailowa.com</strong>
-        <span class="vs-sub">Service for companies with 5–300 people</span>
+        <span class="vs-sub">Packages for companies of different sizes</span>
       </div>
       <ul class="vs-list">
         <li><span class="vs-yes"></span><div><strong>Mail stays in your tenant</strong><span>No email leaves the Microsoft 365 infrastructure</span></div></li>
         <li><span class="vs-yes"></span><div><strong>No installation on employee devices</strong><span>Signature added server-side by Microsoft 365</span></div></li>
-        <li><span class="vs-yes"></span><div><strong>Deployment in 1–2 days</strong><span>Attribute audit, HTML template, transport rule</span></div></li>
-        <li><span class="vs-yes"></span><div><strong>23+ Entra ID attributes</strong><span>DisplayName, Title, Phone, Department and more</span></div></li>
+        <li><span class="vs-yes"></span><div><strong>Complete implementation</strong><span>Attribute audit, HTML template, configuration and testing</span></div></li>
+        <li><span class="vs-yes"></span><div><strong>Entra ID attributes</strong><span>Name, title, phone, department and other agreed data</span></div></li>
         <li><span class="vs-yes"></span><div><strong>Campaign banners</strong><span>Centrally managed, change one file</span></div></li>
         <li><span class="vs-yes"></span><div><strong>Shared Mailbox</strong><span>Separate signature per shared mailbox</span></div></li>
         <li><span class="vs-yes"></span><div><strong>Minimal complexity</strong><span>You tell us what you need – we configure it</span></div></li>
@@ -692,59 +693,77 @@ ul,ol{list-style:none}
 </div>
 </section>
 
-<!-- ===== CENNIK ===== -->
+<!-- ===== PRICING ===== -->
 <section class="section" id="cennik">
 <div class="wrap">
   <div class="sh reveal">
     <span class="eyebrow">Pricing</span>
-    <h2>Simple subscription, full service</h2>
-    <p>Choose a package suited to your company size. Price includes deployment, template and&nbsp;maintenance.</p>
+    <h2>A package suited to your company size</h2>
+    <p>We first complete a one-time implementation. The service is then maintained under the selected monthly subscription package.</p>
+  </div>
+  <div class="setup-note reveal">
+    <div class="setup-note-ic">01</div>
+    <div>
+      <h3>One-time implementation fee</h3>
+      <p>Implementation is priced separately. It includes requirements analysis, HTML signature design, Microsoft 365 configuration, Entra ID attribute mapping, publishing visual assets, testing and production launch. The fee depends on the number of templates, brands, domains and the required data scope.</p>
+    </div>
   </div>
   <div class="prices">
     <div class="price card reveal">
       <div class="price-k">Start</div>
-      <div><span class="price-v">45 zł</span><br><small>/ month / net · up to 10 users</small></div>
-      <p>For small businesses that want a professional and automated signature.</p>
+      <div><span class="price-v">PLN 99</span><br><small>net / month · up to 25 users</small></div>
+      <p>For small businesses that need one consistent signature and regular banner support.</p>
       <ul>
-        <li><span class="tick">✔</span> HTML signature template</li>
-        <li><span class="tick">✔</span> M365 data</li>
-        <li><span class="tick">✔</span> Mail configuration</li>
-        <li><span class="tick">✔</span> Static banner</li>
-        <li><span class="tick">✔</span> Email support</li>
+        <li><span class="tick">✔</span> Microsoft 365 configuration maintenance</li>
+        <li><span class="tick">✔</span> User data from Entra ID</li>
+        <li><span class="tick">✔</span> 1 brand and 1 base template</li>
+        <li><span class="tick">✔</span> 1 banner rotation per month</li>
+        <li><span class="tick">✔</span> 1 template change per year</li>
+        <li><span class="tick">✔</span> Administrative support</li>
       </ul>
+      <div class="price-note">The implementation fee is not included in the subscription.</div>
       <div class="price-cta"><a class="btn btn-s" href="#kontakt" style="width:100%">Choose Start</a></div>
     </div>
     <div class="price best card reveal">
       <div class="price-badge">Most popular</div>
       <div class="price-k">Business</div>
-      <div><span class="price-v">4.5 zł</span><br><small>/ user / month / net · up to 100 users</small></div>
-      <p>For companies that want a consistent image and&nbsp;rotating campaign banners.</p>
+      <div><span class="price-v">PLN 199</span><br><small>net / month · 26–100 users</small></div>
+      <p>For companies that run campaigns more frequently and need regular signature updates.</p>
       <ul>
-        <li><span class="tick">✔</span> Everything from Start</li>
-        <li><span class="tick">✔</span> Up to 3 templates (e.g. departments)</li>
-        <li><span class="tick">✔</span> Rotating campaign banners</li>
-        <li><span class="tick">✔</span> Shared Mailbox</li>
-        <li><span class="tick">✔</span> Priority support</li>
+        <li><span class="tick">✔</span> Microsoft 365 configuration maintenance</li>
+        <li><span class="tick">✔</span> User data from Entra ID</li>
+        <li><span class="tick">✔</span> 1 brand and 1 base template</li>
+        <li><span class="tick">✔</span> Up to 2 banner rotations per month</li>
+        <li><span class="tick">✔</span> 1 minor template change per quarter</li>
+        <li><span class="tick">✔</span> Administrative support</li>
       </ul>
+      <div class="price-note">The implementation fee is not included in the subscription.</div>
       <div class="price-cta"><a class="btn btn-p" href="#kontakt" style="width:100%">Choose Business</a></div>
     </div>
     <div class="price card reveal">
       <div class="price-k">Enterprise</div>
-      <div><span class="price-v">Quote</span><br><small>individual · 100+ users</small></div>
-      <p>For organizations with multiple domains and&nbsp;advanced requirements.</p>
+      <div><span class="price-v">Custom quote</span><br><small>over 100 users</small></div>
+      <p>For organizations with multiple brands, domains, templates or individual support requirements.</p>
       <ul>
-        <li><span class="tick">✔</span> Everything from Business</li>
-        <li><span class="tick">✔</span> Multiple domains</li>
-        <li><span class="tick">✔</span> Dedicated templates</li>
-        <li><span class="tick">✔</span> SLA NBD</li>
-        <li><span class="tick">✔</span> Organizational onboarding</li>
+        <li><span class="tick">✔</span> Dedicated maintenance terms</li>
+        <li><span class="tick">✔</span> Multiple brands, domains or templates</li>
+        <li><span class="tick">✔</span> Individually agreed banner rotation limit</li>
+        <li><span class="tick">✔</span> Individually agreed template change scope</li>
+        <li><span class="tick">✔</span> Agreed support model</li>
       </ul>
+      <div class="price-note">Implementation and subscription are quoted after a requirements review.</div>
       <div class="price-cta"><a class="btn btn-s" href="#kontakt" style="width:100%">Request a quote</a></div>
+    </div>
+  </div>
+  <div class="setup-note reveal" style="margin-top:20px">
+    <div class="setup-note-ic">i</div>
+    <div>
+      <h3>What do the change limits mean?</h3>
+      <p>A banner rotation means replacing a completed visual supplied and approved by the Client. A template change means modifying the HTML layout, styling, fields or signature elements. Additional changes, new designs and separate templates are quoted before delivery. Unused changes do not carry over to subsequent billing periods.</p>
     </div>
   </div>
 </div>
 </section>
-
 <!-- ===== FAQ ===== -->
 <section class="section" id="faq" style="background:rgba(237,245,255,.4)">
 <div class="wrap">
@@ -754,6 +773,10 @@ ul,ol{list-style:none}
   </div>
 
   <div class="faq-g">
+    <div class="faq-i card reveal" onclick="this.classList.toggle('open')">
+      <div class="faq-q"><span>Is implementation included in the subscription?</span><i>+</i></div>
+      <div class="faq-a">No. Implementation is a one-time service quoted after the requirements review. The subscription covers ongoing configuration maintenance, support, and the number of banner rotations and template changes included in the selected package.</div>
+    </div>
         <div class="faq-i card reveal" onclick="this.classList.toggle('open')">
       <div class="faq-q"><span>Do my emails pass through external servers?</span><i>+</i></div>
       <div class="faq-a">No. This is the key difference. Your mail never leaves your Microsoft 365 tenant. The signature is added by an Exchange Online mail rule — inside the Microsoft infrastructure you already have and trust. We do not redirect mail through external servers, we do not process message content and we have no access to your emails. Some signature platforms require routing all company mail through their own servers — meaning every email with customer data, quotes and invoices first goes to a third party. With us, that risk simply does not exist.</div>
@@ -772,7 +795,7 @@ ul,ol{list-style:none}
     </div>
     <div class="faq-i card reveal" onclick="this.classList.toggle('open')">
       <div class="faq-q"><span>What Microsoft&nbsp;365 data is populated?</span><i>+</i></div>
-      <div class="faq-a">We support over 23 attributes, including: Full name, First name, Last name, Title, Department, Company name, Business phone, Mobile phone, Address, City, Postal code, Email address and many more. Just fill in the data in Entra ID.</div>
+      <div class="faq-a">The signature can use attributes including: Full name, First name, Last name, Title, Department, Company name, Business phone, Mobile phone, Address, City, Postal code, Email address and many more. Just fill in the data in Entra ID.</div>
     </div>
     <div class="faq-i card reveal" onclick="this.classList.toggle('open')">
       <div class="faq-q"><span>Do I need a special Microsoft 365 license?</span><i>+</i></div>
@@ -791,7 +814,7 @@ ul,ol{list-style:none}
       <h2 style="margin-top:14px">See your new signature in 15 minutes</h2>
       <p>We'll show you what your company's signature will look like. We'll check the data in M365, propose a template and quote the deployment. No forms ‑ just 15&nbsp;minutes or one e‑mail.</p>
       <div class="c-btns">
-        <a class="btn btn-p" href="https://bookings.cloud.microsoft/book/ValcreonSessions@valcreon.com" target="_blank" rel="noopener noreferrer">Book 15&nbsp;min</a>
+        <a class="btn btn-p" href="https://bookings.cloud.microsoft/book/RedFlag1@redflag.com.pl" target="_blank" rel="noopener noreferrer">Book 15&nbsp;min</a>
         <a class="btn btn-s" href="mailto:msp@valcreon.com?subject=Email%20signature%20%E2%80%93%20inquiry&amp;body=Hello%2C%0A%0AWe%20would%20like%20to%20inquire%20about%20automated%20email%20signatures%20in%20Microsoft%20365.%0A%0ACompany%3A%0ANumber%20of%20users%3A%0ADomain%3A%0A%0ABest%20regards">Send e&#8209;mail</a>
         <a class="btn btn-s" href="tel:+48221525060">📞 +48 22 152 50 60</a>
       </div>
@@ -833,7 +856,7 @@ ul,ol{list-style:none}
       <strong>Contact</strong>
       <a href="mailto:msp@valcreon.com">msp@valcreon.com</a>
       <a href="tel:+48221525060">+48 22 152 50 60</a>
-      <a href="https://bookings.cloud.microsoft/book/ValcreonSessions@valcreon.com" target="_blank" rel="noopener noreferrer">Book a call</a>
+      <a href="https://bookings.cloud.microsoft/book/RedFlag1@redflag.com.pl" target="_blank" rel="noopener noreferrer">Book a call</a>
       <a href="https://valcreon.com" target="_blank" rel="noopener noreferrer">valcreon.com</a>
     </div>
   </div>
